@@ -9,7 +9,7 @@ ul, li {
    padding: 0;
    margin: 0;
 }
-
+/*Меню*/
 .menu-bar {
    background: #fff;
    padding: 20px 0;
@@ -19,7 +19,7 @@ ul, li {
    margin-left: 37px;
 }
 .menu__item a {
-   font-family: 'Open Sasn Smibold';
+   font-family: 'Open Sans Smibold';
    font-size: 20px;
    color: #212121;
 }
@@ -27,3 +27,4 @@ ul, li {
    text-decoration: none;
    color: #868686;
 }
+/**/
