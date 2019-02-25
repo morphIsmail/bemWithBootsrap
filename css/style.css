@@ -61,6 +61,7 @@ ul, li {
 .button_full:hover {
    border: 2px dotted white;
    background: #04574e;
+   cursor: pointer;
 }
 /*О нас*/
 .about {
