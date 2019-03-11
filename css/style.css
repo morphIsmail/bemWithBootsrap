@@ -141,3 +141,7 @@ ul, li {
 .filter {
    padding: 120px 0;
 }
+.aligh_img {
+   display: flex;
+   justify-content: center;
+}
