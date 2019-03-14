@@ -130,9 +130,19 @@ ul, li {
    padding-top: 120px;
    padding-bottom: 135px;
 }
-.portfolio button:hover {
+.portfolio .button {
+   margin-top: 20px;
+   transition: 0.3s;
    color: black;
+   text-transform: uppercase;
+   border: 2px solid black;
    background: transparent;
+   padding: 10px 12px 10px;
+   font-family: 'Open Sans Semibold';
+}
+.portfolio button:hover {
+   color: white;
+   background: #00897b;
    border: 2px solid #00897b;
 }
 .portfolio img {
