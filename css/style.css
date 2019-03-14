@@ -130,12 +130,12 @@ ul, li {
    padding-top: 120px;
    padding-bottom: 135px;
 }
-.portfolio .button {
+.portfolio button {
    margin-top: 20px;
    transition: 0.3s;
    color: black;
    text-transform: uppercase;
-   border: 2px solid black;
+   border: 2px solid #00897b;
    background: transparent;
    padding: 10px 12px 10px;
    font-family: 'Open Sans Semibold';
@@ -144,6 +144,21 @@ ul, li {
    color: white;
    background: #00897b;
    border: 2px solid #00897b;
+}
+.portfolio .button-view {
+   text-transform: uppercase;
+   cursor: pointer;
+   padding: 10px 25px;
+   margin: 0 10px;
+   color: white;
+   transition: 0.3s;
+   background: #00897b;
+   border: 2px solid #00897b;
+}
+.portfolio .button-view:hover {
+   color: black;
+   background: transparent;
+   border: 2px solid black;
 }
 .portfolio img {
    margin-bottom: 30px;
