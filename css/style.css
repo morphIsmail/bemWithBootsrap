@@ -130,35 +130,11 @@ ul, li {
    padding-top: 120px;
    padding-bottom: 135px;
 }
-.portfolio button {
-   margin-top: 20px;
-   transition: 0.3s;
-   color: black;
-   text-transform: uppercase;
-   border: 2px solid #00897b;
-   background: transparent;
-   padding: 10px 12px 10px;
-   font-family: 'Open Sans Semibold';
-}
-.portfolio button:hover {
-   color: white;
-   background: #00897b;
-   border: 2px solid #00897b;
-}
-.portfolio .button-view {
-   text-transform: uppercase;
-   cursor: pointer;
-   padding: 10px 25px;
-   margin: 0 10px;
-   color: white;
-   transition: 0.3s;
-   background: #00897b;
-   border: 2px solid #00897b;
-}
-.portfolio .button-view:hover {
+.portfolio button:hover,
+.focused {
    color: black;
    background: transparent;
-   border: 2px solid black;
+   border: 2px solid #00897b;
 }
 .portfolio img {
    margin-bottom: 30px;
@@ -166,7 +142,20 @@ ul, li {
 .filter {
    padding: 120px 0;
 }
-.aligh_img {
-   display: flex;
-   justify-content: center;
+div[filter]:hover img {
+   filter: brightness(50%);
+   transition: 0.3s;
+}
+.text {
+   display: none;
+}
+div[filter]:hover .text {
+   display: block;
+   width: 100%;
+   color: #fff;
+   position: absolute;
+   top: 40%;
+   left: 0;
+   z-index: 3;
+   text-align: center;
 }
