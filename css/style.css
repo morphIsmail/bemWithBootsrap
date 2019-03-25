@@ -159,3 +159,71 @@ div[filter]:hover .text {
    z-index: 3;
    text-align: center;
 }
+/* Цены */
+.pricing {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: black;
+   background: #f0f1f1;
+   text-align: center;
+   
+}
+.price {
+   transition: 0.5s;
+   background: #fff;
+}
+.price:hover {
+   box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
+}
+.price__head {
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 65px;
+   background-image: url(../img/pricing_bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-height: 211px;
+}
+.price__head p {
+   font-size: 25px;
+}
+.price__head {
+   font-size: 50px;
+}
+.price__head sub {
+   vertical-align: middle;
+   font-size: 17px;
+}
+.price__head sup {
+   vertical-align: middle;
+   font-size: 25px;
+}
+.price__body {
+   font-size: 17px;
+   color: #212121;
+}
+.price__body ul li {
+   padding-top: 28px;
+   padding-bottom: 12px;
+   margin: 0 auto;
+   max-width: 175px;
+   border-bottom: 1px solid #bfbfbf;
+}
+.price__footer {
+   padding: 60px 0;
+}
+.price__footer button {
+   cursor: pointer;
+   color: #212121;
+   background: transparent;
+   padding: 15px 30px;
+   font-size: 20px;
+   border: 2px solid #212121;
+   transition: 0.3s;
+}
+.price__footer button:hover {
+   text-transform: uppercase;
+   color: white;
+   background: #00897b;
+   border: none;
+}
