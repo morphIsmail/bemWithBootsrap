@@ -216,7 +216,8 @@ div[filter]:hover .text {
    cursor: pointer;
    color: #212121;
    background: transparent;
-   padding: 15px 30px;
+   width: 180px;
+   height: 60px;
    font-size: 20px;
    border: 2px solid #212121;
    transition: 0.3s;
