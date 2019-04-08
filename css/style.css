@@ -335,8 +335,14 @@ div[filter]:hover .text {
    color: white;
    font-size: 20px;
    margin-top: 125px;
-   border: none;
+   transition: 0.3s;
+   border: 2px solid #00897b;
+   cursor: pointer;
    background: #00897b;
    font-family: 'Roboto', sans-serif;
    font-weight: bold;
+}
+.button_blog:hover{
+   background: transparent;
+   color: #000;
 }
