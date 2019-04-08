@@ -288,6 +288,9 @@ div[filter]:hover .text {
    background: #3949ab;
 }
 /*Блог*/
+.blog-item{
+   width: 48%;
+}
 .left > div:first-child {
    order: 1;
 }
@@ -303,7 +306,6 @@ div[filter]:hover .text {
 .blog {
    text-align: left;
    margin-top: 60px;
-   margin-left: 20px;
 }
 .blog a {
    font-size: 25px;
@@ -324,9 +326,6 @@ div[filter]:hover .text {
 }
 .blog p {
    font-size: 15px;
-}
-.left, .right {
-   margin: 0 -40px;
 }
 .button_blog {
    width: 220px;
