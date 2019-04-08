@@ -287,3 +287,56 @@ div[filter]:hover .text {
 .dots-style li[class="slick-active"] button {
    background: #3949ab;
 }
+/*Блог*/
+.left > div:first-child {
+   order: 1;
+}
+.left > div:last-child {
+   order: 2;
+}
+.right > div:first-child {
+   order: 2;
+}
+.right > div:last-child {
+   order: 1;
+}
+.blog {
+   text-align: left;
+   margin-top: 60px;
+   margin-left: 20px;
+}
+.blog a {
+   font-size: 25px;
+   color: #00897b;
+   font-family: 'Open Sans Semibold';
+}
+.blog div {
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+.blog span {
+   font-size: 17px;
+   font-family: 'Open Sans Semibold';
+   margin-right: 35px;
+}
+.blog i {
+   margin-right: 15px;
+}
+.blog p {
+   font-size: 15px;
+}
+.left, .right {
+   margin: 0 -40px;
+}
+.button_blog {
+   width: 220px;
+   height: 70px;
+   text-transform: uppercase;
+   color: white;
+   font-size: 20px;
+   margin-top: 125px;
+   border: none;
+   background: #00897b;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+}
