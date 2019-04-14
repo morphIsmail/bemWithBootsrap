@@ -345,3 +345,68 @@ div[filter]:hover .text {
    background: transparent;
    color: #000;
 }
+/*Футер*/
+.footer {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: #fff;
+   background-image: url(../img/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+.footer .about__text {
+   color: #fff;
+}
+.fa-map-marker-alt, .fa-phone, .fa-envelope {
+   font-size: 62px;
+   color: #fff;
+}
+.circle {
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #3949ab;
+   width: 100px;
+   height: 100px;
+   margin: 0 auto 35px;
+}
+.circle + p {
+   font-size: 20px;
+}
+.footer input, .footer textarea {
+   padding: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border:none;
+}
+.footer input:focus, .footer textarea:focus {
+   outline: none;
+}
+.footer textarea {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   resize: none;
+}
+.footer button {
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   color: #212121;
+   padding: 20px 80px;
+   border-radius: 10px;
+   border: none;
+   transition: 0.3s
+}
+.footer button:hover {
+   opacity: 0.6;
+}
+.rules {
+   padding: 20px 0;
+   text-align: center;
+   font-weight: 600;
+}
+.form {
+   margin-top: 70px;
+}
