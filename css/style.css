@@ -516,6 +516,9 @@ div[filter]:hover .text {
    display: none;
    color: #000000;
 }
+.menu-icon {
+   display: none;
+}
 
 @media screen and (max-width: 1024px) {
    nav {
@@ -527,6 +530,7 @@ div[filter]:hover .text {
       align-items: center;
    }
    .menu-icon {
+      display: block;
       background: #00897b;
       border: none;
       font-size: 25px;
