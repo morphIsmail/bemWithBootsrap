@@ -4,29 +4,35 @@ body {
    font-family: 'Open Sans';
 }
 
-ul, li {
+ul,
+li {
    display: block;
    padding: 0;
    margin: 0;
 }
+
 /*Меню*/
 .menu-bar {
    background: #fff;
    padding: 20px 0;
    color: #212121;
 }
+
 .menu__item {
    margin-left: 37px;
 }
+
 .menu__item a {
    font-family: 'Open Sans Semibold';
    font-size: 20px;
    color: #212121;
 }
+
 .menu__item a:hover {
    text-decoration: none;
    color: #868686;
 }
+
 /*Шапка*/
 .header {
    color: white;
@@ -36,13 +42,16 @@ ul, li {
    background-position: 0 100%;
    background-image: url(../img/header.png);
 }
+
 .header__title {
    font-size: 55px;
 }
+
 .header__text {
    font-size: 20px;
    margin-bottom: 100px;
 }
+
 .button {
    text-transform: uppercase;
    cursor: pointer;
@@ -53,10 +62,12 @@ ul, li {
    background: #00897b;
    border: 2px solid #00897b;
 }
+
 .button:hover {
    background: transparent;
    border: 2px solid white;
 }
+
 /*О нас*/
 .about {
    padding-top: 120px;
@@ -65,21 +76,25 @@ ul, li {
    background: white;
    text-align: center;
 }
+
 .about__title {
    font-size: 30px;
    font-weight: bold;
 }
+
 .about__text {
    color: #212121;
    font-size: 15px;
    margin-bottom: 110px;
 }
+
 .about_h3 {
    margin-top: 30px;
    margin-bottom: 20px;
    font-family: 'Open Sans Semibold';
    font-size: 20px;
 }
+
 /*Наши услуги*/
 .services {
    padding-top: 165px;
@@ -88,29 +103,35 @@ ul, li {
    background: #e4fdf9;
    text-align: center;
 }
+
 .our_card {
    background: white;
    padding: 50px 40px 40px;
    transition: 0.3s;
    margin-bottom: 30px;
 }
+
 .our_card:hover {
    background: #00897b;
    color: white;
    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
 }
+
 .our_card:hover .icon {
    color: white;
 }
+
 .our_card:hover .button-services {
    border: 2px solid white;
    color: white;
 }
+
 .icon {
    transition: 0.3s;
    font-size: 60px;
    color: black;
 }
+
 .button-services {
    margin-top: 20px;
    transition: 0.3s;
@@ -121,34 +142,43 @@ ul, li {
    padding: 10px 12px 10px;
    font-family: 'Open Sans Semibold';
 }
+
 .button-services:hover {
    cursor: pointer;
 }
+
 /*Портфолио*/
 .portfolio {
    text-align: center;
    padding-top: 120px;
    padding-bottom: 135px;
 }
+
 .portfolio button:hover,
 .focused {
    color: black;
    background: transparent;
    border: 2px solid #00897b;
 }
+
 .portfolio img {
+   max-width: 100%;
    margin-bottom: 30px;
 }
+
 .filter {
    padding: 120px 0;
 }
+
 div[filter]:hover img {
    filter: brightness(50%);
    transition: 0.3s;
 }
+
 .text {
    display: none;
 }
+
 div[filter]:hover .text {
    display: block;
    width: 100%;
@@ -159,6 +189,7 @@ div[filter]:hover .text {
    z-index: 3;
    text-align: center;
 }
+
 /* Цены */
 .pricing {
    padding-top: 165px;
@@ -167,13 +198,17 @@ div[filter]:hover .text {
    background: #f0f1f1;
    text-align: center;
 }
+
 .price {
    transition: 0.5s;
    background: #fff;
+   margin-bottom: 20px;
 }
+
 .price:hover {
    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
 }
+
 .price__head {
    color: white;
    padding-top: 40px;
@@ -183,24 +218,30 @@ div[filter]:hover .text {
    background-repeat: no-repeat;
    max-height: 211px;
 }
+
 .price__head p {
    font-size: 25px;
 }
+
 .price__head {
    font-size: 50px;
 }
+
 .price__head sub {
    vertical-align: middle;
    font-size: 17px;
 }
+
 .price__head sup {
    vertical-align: middle;
    font-size: 25px;
 }
+
 .price__body {
    font-size: 17px;
    color: #212121;
 }
+
 .price__body ul li {
    padding-top: 28px;
    padding-bottom: 12px;
@@ -208,9 +249,11 @@ div[filter]:hover .text {
    max-width: 175px;
    border-bottom: 1px solid #bfbfbf;
 }
+
 .price__footer {
    padding: 60px 0;
 }
+
 .price__footer button {
    cursor: pointer;
    color: #212121;
@@ -221,12 +264,14 @@ div[filter]:hover .text {
    border: 2px solid #212121;
    transition: 0.3s;
 }
+
 .price__footer button:hover {
    text-transform: uppercase;
    color: white;
    background: #00897b;
    border: none;
 }
+
 /* Команда */
 .team {
    padding-top: 165px;
@@ -235,46 +280,58 @@ div[filter]:hover .text {
    background: #fff;
    text-align: center;
 }
+
 .team h4 {
    margin-top: 30px;
    font-size: 20px;
    font-family: 'Open Sans Semibold';
 }
+
 .team p {
    font-size: 15px;
    margin-bottom: 30px;
 }
+
 .icons {
    display: flex;
    justify-content: center;
 }
+
 .icons a i {
    transition: 0.3s;
 }
+
 .icons i:nth-child(1) {
    color: #f0f1f1;
 }
+
 .icons i:nth-child(2) {
    color: #00897b;
 }
+
 .icons a:hover i:nth-child(1) {
    color: #3949ab;
 }
+
 .icons a:hover i:nth-child(2) {
    color: #fff;
 }
+
 .team img {
    margin: 0 auto;
    max-width: 340px;
 }
+
 .multiple-items {
    margin-top: 125px;
 }
+
 .dots-style {
    margin-top: 115px;
    display: flex;
    justify-content: center;
 }
+
 .dots-style button {
    background: #00897b;
    border: none;
@@ -284,49 +341,62 @@ div[filter]:hover .text {
    width: 15px;
    margin: 5px;
 }
+
 .dots-style li[class="slick-active"] button {
    background: #3949ab;
 }
+
 /*Блог*/
-.blog-item{
+.blog-item {
    width: 48%;
 }
-.left > div:first-child {
+
+.left>div:first-child {
    order: 1;
 }
-.left > div:last-child {
+
+.left>div:last-child {
    order: 2;
 }
-.right > div:first-child {
+
+.right>div:first-child {
    order: 2;
 }
-.right > div:last-child {
+
+.right>div:last-child {
    order: 1;
 }
+
 .blog {
    text-align: left;
    margin-top: 60px;
 }
+
 .blog a {
    font-size: 25px;
    color: #00897b;
    font-family: 'Open Sans Semibold';
 }
+
 .blog div {
    margin-top: 15px;
    margin-bottom: 20px;
 }
+
 .blog span {
    font-size: 17px;
    font-family: 'Open Sans Semibold';
    margin-right: 35px;
 }
+
 .blog i {
    margin-right: 15px;
 }
+
 .blog p {
    font-size: 15px;
 }
+
 .button_blog {
    width: 220px;
    height: 70px;
@@ -341,10 +411,12 @@ div[filter]:hover .text {
    font-family: 'Roboto', sans-serif;
    font-weight: bold;
 }
-.button_blog:hover{
+
+.button_blog:hover {
    background: transparent;
    color: #000;
 }
+
 /*Футер*/
 .footer {
    padding-top: 165px;
@@ -355,13 +427,18 @@ div[filter]:hover .text {
    background-size: cover;
    text-align: center;
 }
+
 .footer .about__text {
    color: #fff;
 }
-.fa-map-marker-alt, .fa-phone, .fa-envelope {
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
    font-size: 62px;
    color: #fff;
 }
+
 .circle {
    border-radius: 50%;
    display: flex;
@@ -372,23 +449,30 @@ div[filter]:hover .text {
    height: 100px;
    margin: 0 auto 35px;
 }
-.circle + p {
+
+.circle+p {
    font-size: 20px;
 }
-.footer input, .footer textarea {
+
+.footer input,
+.footer textarea {
    padding: 30px;
    width: 100%;
    border-radius: 10px;
-   border:none;
+   border: none;
 }
-.footer input:focus, .footer textarea:focus {
+
+.footer input:focus,
+.footer textarea:focus {
    outline: none;
 }
+
 .footer textarea {
    margin-top: 30px;
    margin-bottom: 30px;
    resize: none;
 }
+
 .footer button {
    font-size: 20px;
    font-family: 'Roboto', sans-serif;
@@ -399,14 +483,62 @@ div[filter]:hover .text {
    border: none;
    transition: 0.3s
 }
+
 .footer button:hover {
    opacity: 0.6;
 }
+
 .rules {
    padding: 20px 0;
    text-align: center;
    font-weight: 600;
 }
+
 .form {
    margin-top: 70px;
+}
+
+/*Кнопка наверх*/
+#toTop {
+   z-index: 999;
+   width: 40px;
+   height: 40px;
+   border: none;
+   font-size: 20px;
+   border-radius: 3px;
+   background: #00897b;
+   text-align: center;
+   padding: 5px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   cursor: pointer;
+   display: none;
+   color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+   nav {
+      display: none;
+   }
+   .logo-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .menu-icon {
+      background: #00897b;
+      border: none;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+   }
+   .blog {
+      margin-top: 10px;
+   }
+   .footer input, .footer textarea {
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
 }
