@@ -10,9 +10,6 @@ li {
    padding: 0;
    margin: 0;
 }
-button {
-   outline: none;
-}
 
 /*Меню*/
 .menu-bar {
@@ -548,5 +545,46 @@ div[filter]:hover .text {
    .footer input, .footer textarea {
       margin-top: 20px;
       margin-bottom: 20px;
+   }
+}
+@media screen and (max-width: 480px) {
+   .header, .about, .services, .portfolio, .filter, .pricing, .footer {
+      padding: 20px;
+   }
+   .header__title {
+      font-size: 45px;
+   }
+   .header__text, .about__text {
+      margin-bottom: 20px;
+   }
+   .button {
+      margin-bottom: 10px;
+   }
+   .team {
+      padding: 20px 0;
+   }
+   .team img {
+      max-width: 320px;
+   }
+   .dots-style, .button_blog, .multiple-items {
+      margin-top: 10px;
+   }
+   .left, .right {
+      flex-direction: column;
+   }
+   .blog-item, .blog {
+      width: 100%;
+   }
+   .right>div:first-child {
+      order: 1;
+   }
+   .right>div:last-child {
+      order: 2;
+   }
+   .blog i {
+      margin-right: 5px;
+   }
+   .form {
+      margin-top: 20px;
    }
 }

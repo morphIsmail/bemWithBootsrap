@@ -27,6 +27,12 @@ $(document).ready(function () {
             slidesToShow: 2,
             slidesToScroll: 2,
          }
+      },{
+         breakpoint: 480,
+         settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+         }
       }]
    });
    /* Меню */
@@ -46,7 +52,7 @@ $(document).ready(function () {
    /* Выпадающее меню */
    $('.menu-icon').click(function(){
       $('nav').slideToggle(500);
-      $('ul').css({
+      $('ul.menu').css({
          'display':'flex', 'flex-direction':'column'
       })
       if($('.menu-icon').html()=='<i class="fas fa-bars"></i>') {
@@ -68,3 +74,8 @@ $(document).ready(function () {
       }, 800);
    });
 })
+
+var btn = document.querySelectorAll('button');
+for (var i =0; i<btn.length; i++) {
+   btn[i].style.outline = 'none';
+}
