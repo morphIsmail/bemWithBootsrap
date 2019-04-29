@@ -10,6 +10,9 @@ li {
    padding: 0;
    margin: 0;
 }
+button {
+   outline: none;
+}
 
 /*Меню*/
 .menu-bar {
@@ -497,6 +500,7 @@ div[filter]:hover .text {
 .form {
    margin-top: 70px;
 }
+
 
 /*Кнопка наверх*/
 #toTop {
