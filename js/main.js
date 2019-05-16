@@ -27,7 +27,7 @@ $(document).ready(function () {
             slidesToShow: 2,
             slidesToScroll: 2,
          }
-      },{
+      }, {
          breakpoint: 480,
          settings: {
             slidesToShow: 1,
@@ -50,17 +50,18 @@ $(document).ready(function () {
       return false;
    });
    /* Выпадающее меню */
-   $('.menu-icon').click(function(){
+   $('.menu-icon').click(function () {
       $('nav').slideToggle(500);
       $('ul.menu').css({
-         'display':'flex', 'flex-direction':'column'
-      })
-      if($('.menu-icon').html()=='<i class="fas fa-bars"></i>') {
-         $(this).html('<i class="fas fa-times"></i>')
+         'display': 'flex',
+         'flex-direction': 'column'
+      });
+      if ($('.menu-icon').html() == '<i class="fas fa-bars"></i>') {
+         $(this).html('<i class="fas fa-times"></i>');
       } else {
-         $(this).html('<i class="fas fa-bars"></i>')
+         $(this).html('<i class="fas fa-bars"></i>');
       }
-   })
+   });
    /* Кнопка наверх */
    $(window).scroll(function () {
       if ($(this).scrollTop() != 0)
@@ -73,9 +74,9 @@ $(document).ready(function () {
          scrollTop: 0
       }, 800);
    });
-})
+});
 
 var btn = document.querySelectorAll('button');
-for (var i =0; i<btn.length; i++) {
+for (var i = 0; i < btn.length; i++) {
    btn[i].style.outline = 'none';
 }
