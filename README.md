@@ -31,4 +31,3 @@ __YouTube канал:__  https://www.youtube.com/channel/UC2Ev-rDSHBov0ZMChesLfr
 __Сайт ITDoctor:__ http://itdoctor.info/  
 __Группа в ВК:__ https://vk.com/itdoctorstudio  
 __Мой Twitter:__ https://twitter.com/ITDoctor_morph  
-
