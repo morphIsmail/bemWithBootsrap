@@ -28,6 +28,7 @@ __Уроки по Photoshop:__ https://www.youtube.com/playlist?list=PLuY6eeDule
 
 ## Наши группы в Социальных сетях:  
 __YouTube канал:__  https://www.youtube.com/channel/UC2Ev-rDSHBov0ZMChesLfrg  
-__Сайт ITDoctor:__ http://itdoctor.info/  
-__Группа в ВК:__ https://vk.com/itdoctorstudio  
-__Мой Twitter:__ https://twitter.com/ITDoctor_morph  
+* __Группа в ВК:__ https://vk.com/itdoctorstudio
+* __Instagram:__ https://instagram.com/ismail_asanovich/
+* __Telegram:__ https://t.me/itdoctorr
+* __Мой Twitter:__ https://twitter.com/ITDoctor_morph
