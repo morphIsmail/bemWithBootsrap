@@ -10,12 +10,16 @@
 * __Репозиторий GitHub:__ https://github.com/morphIsmail/bemWithBootsrap  
 
 
-## Для поддержки развития проекта:
-__Сбербанк VISA:__ 4276 5200 1409 4318  
-__Yandex:__ 410011260821995 - https://yasobe.ru/na/itdoctor  
-__QIWI:__ 4890 4943 0383 5581  
-__WMR:__ R444308690108  
-__WMZ:__ Z608507028676  
+## Я, Исмаил Усеинов:
+* __YouTube канал ITDoctor:__ https://www.youtube.com/c/ITDoctor
+* __ВК:__ https://vk.com/morphop
+* __Группа в ВК:__ https://vk.com/itdoctorstudio
+* __Instagram:__ https://instagram.com/ismail_asanovich/
+
+## Благодарность автору ( ₽ ):
+* __Сбербанк VISA:__ 4274 3200 3233 1582
+* __Yandex:__ 410011260821995 https://yasobe.ru/na/itdoctor  
+* __Станьте спонсором Youtube канала:__ https://www.youtube.com/channel/UC2Ev-rDSHBov0ZMChesLfrg/join
 
 
 ## Советую посмотреть:
@@ -24,11 +28,3 @@ __Уроки по Bootstrap 4:__ https://www.youtube.com/playlist?list=PLuY6eeDu
 __Иконки для сайта:__ https://www.youtube.com/watch?v=E-DNlHs4BEo  
 __Уроки по GitHub:__ https://www.youtube.com/playlist?list=PLuY6eeDuleIOMB2R_Kky05ZfiAx2_pbAH  
 __Уроки по Photoshop:__ https://www.youtube.com/playlist?list=PLuY6eeDuleINP2w4V37k8f5Jxp5j8ndfU  
-
-
-## Наши группы в Социальных сетях:  
-__YouTube канал:__  https://www.youtube.com/channel/UC2Ev-rDSHBov0ZMChesLfrg  
-* __Группа в ВК:__ https://vk.com/itdoctorstudio
-* __Instagram:__ https://instagram.com/ismail_asanovich/
-* __Telegram:__ https://t.me/itdoctorr
-* __Мой Twitter:__ https://twitter.com/ITDoctor_morph
