@@ -1,7 +1,7 @@
 # bemWithBootsrap
 
 ## Описание проекта
-Репозиторий создан с целью сомвестного обучения по видео курсу "[Верстка по макету PSD на Bootstrap4 + BEM](https://www.youtube.com/playlist?list=PLuY6eeDuleIMbdiCzaZuPjxXE24eAG5qo)".
+Репозиторий создан с целью совместного обучения по видео курсу "[Верстка по макету PSD на Bootstrap4 + BEM](https://www.youtube.com/playlist?list=PLuY6eeDuleIMbdiCzaZuPjxXE24eAG5qo)".
 
 В этом видео курсе мы будем верстать лендинг по макету из PSD, используя в своей работе Bootstrap 4, Методологию БЭМ, Adobe Photoshop, Font Awesome, GitHub и многое другое.
 
